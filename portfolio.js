@@ -1,10 +1,10 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Shiba Yashihiro",
-	title: "Hi all, I'm Shiba. こんにちは、シバです",
+	name: "Shabir Nawabi",
+	title: "Hi all, I'm Shabir Nawabi.",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Laravel, Yii, CodeIgniter, WordPress, Magento, Drupal, Joomla, Angular, React.js and Vue.js.",
+		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Node.js, Vue.js, GatsbyJS, Laravel and Django",
 	resumeLink:
 		"https://drive.google.com/file/d/1KbCV08ZdwJW7NnRSJWujBJcVdJirxzok/view?usp=share_link",
 };
@@ -25,8 +25,8 @@ export const socialLinks = {
 };
 
 export const skillsSection = {
-	title: "What I do",
-	subTitle:
+	title: "My skills",
+	subTitle:		
 		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
