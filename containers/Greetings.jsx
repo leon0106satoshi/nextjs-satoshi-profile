@@ -52,7 +52,7 @@ const Greetings = () => {
 										</Button>
 									</div>
 								</Col>
-								<Col lg="6">
+								<Col lg="6" className="svg-wrapper">
 									<GreetingLottie animationPath="/lottie/coding.json" />
 								</Col>
 							</Row>

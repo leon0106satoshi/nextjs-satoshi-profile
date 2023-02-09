@@ -1,16 +1,16 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Shabir Nawabi",
-	title: "Hi all, I'm Shabir Nawabi.",
+	name: "Leon Satoshi",
+	title: "Hi all, I'm Leon Satoshi.",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Node.js, Vue.js, GatsbyJS, Laravel and Django",
+		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Node.js, Vue.js, GatsbyJS",
 	resumeLink:
 		"https://drive.google.com/file/d/1KbCV08ZdwJW7NnRSJWujBJcVdJirxzok/view?usp=share_link",
 };
 
 export const openSource = {
-	githubUserName: "ShibaYashihiro",
+	githubUserName: "LeonSatoshi",
 };
 
 export const contact = {};
@@ -33,13 +33,8 @@ export const skillsSection = {
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using Next.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
-				),
+				emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
+				emoji("⚡ Building RESTful APIs in Node.js"),
 			],
 			softwareSkills: [
 				{
@@ -71,28 +66,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:laravel",
 				},
 				{
-					skillName: "Yii",
-					fontAwesomeClassname: "logos:yii",
-				},
-				{
 					skillName: "CodeIgniter",
 					fontAwesomeClassname: "logos:codeigniter",
-				},
-				{
-					skillName: "WordPress",
-					fontAwesomeClassname: "logos:wordpress",
-				},
-				{
-					skillName: "Magento",
-					fontAwesomeClassname: "logos:magento",
-				},
-				{
-					skillName: "Drupal",
-					fontAwesomeClassname: "logos:drupal",
-				},
-				{
-					skillName: "Joomla",
-					fontAwesomeClassname: "logos:joomla",
 				},
 				{
 					skillName: "Reactjs",
@@ -103,38 +78,21 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:vue",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
-				},
-				{
 					skillName: "Redux",
 					fontAwesomeClassname: "logos:redux",
 				},
 				{
 					skillName: "NPM",
 					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
+				}
 			],
 		},
 		{
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
+				emoji("⚡ Experience of working on serverless architecture"),
+				emoji("⚡ Proficiency in using terraform"),
 			],
 			softwareSkills: [
 				// ? Check README To get icon details
@@ -236,10 +194,6 @@ export const SkillBars = [
 		progressPercentage: "90",
 	},
 	{
-		Stack: "WordPress & Magento",
-		progressPercentage: "93",
-	},
-	{
 		Stack: "Programming",
 		progressPercentage: "89",
 	},
@@ -247,59 +201,61 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Juno College",
-		subHeader: "Master of Science in Computer Science",
-		duration: "April 2012 - July 2015",
+		schoolName: "University of Bolton",
+		subHeader: "Bachelor's Degree in Computer Science",
+		duration: "2010 - 2013",
 		desc: "Relevant Coursework:",
 		grade: "Grade A",
 		descBullets: [
 			"Operating Systems Architecture",
 			"Linux/Unix Programming",
 			"Usability in Website and Software Design",
-			"C++ Programming I & II",
 			"Web Page Development",
 			"Relational Database Design & SQL",
 			"Data Engineering",
 			"Advanced Software Programming",
-
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Full Stack Developer",
-		company: "247 LABS INC",
-		companylogo: "/img/icons/common/247_labs.png",
-		date: "Dec 2017 – Mar 2022",
+		role: "Senior Laravel Developer",
+		company: "UniRanks Inc",
+		companylogo: "/img/icons/common/UNIRANK.png",
+		date: "Jul 2022 – Jan 2023",
 		desc: "Key Qualifications & Responsibilities",
 		descBullets: [
-			"Developed full-stack web applications which processed, analyzed, and rendered data visually.",
-			"Liaised with back end developers, front end developers, quality assurance testers, and CTO as needed.",
-			"Managed time-sensitive updates, including content changes and database upgrades.",
-			"Planned, wrote, and debugged web applications and software with complete accuracy.",
-			"Implemented websites, mobile applications, and landing pages from concept through deployment.",
-			"Standardized all output with a new, responsive, mobile-first approach and strategy.",
-			"Assessed UX and UI designs for technical feasibility.",
-			"Developed standard and ad hoc reports in graph format as required.",
-			"Collaborated with product team members to implement new feature developments.",
+			"Using Laravel 9",
+			"Livewire",
+			"AlpineJS",
+			"Using high quality Eloquent query in backend",
+			"Mentored and knowledge",
+			"Shared with younger colleagues on",
 		],
-		
 	},
 	{
-		role: "Junior Full Stack Developer",
-		company: "Saritasa",
-		companylogo: "/img/icons/common/saritasa.png",
-		date: "Sep 2015 – Jul 2017",
+		role: "Senior React Developer",
+		company: "ZealousWeb",
+		companylogo: "/img/icons/common/ZealousWeb.png",
+		date: "Feb 2016 – Jun 2022",
 		desc: "Key Qualifications & Responsibilities",
 		descBullets: [
-			" Created and used a prototype library for AJAX development.",
-			" Upgraded PHP CodeIgniter and other framework applications to fit adapting client needs.",
-			" Integrated various third party API’s using SOAP/XML.",
-			" Maximized applications’ efficiency, data quality, scope, operability, and flexibility.",
-			" Used various ideas from distributed computing, large-scale design, real-time data processing, data storage, ML, and AI to solve challenging dataset problems.",
-			" Managed, optimized, and updated PHP databases as necessary.",
-			" Developed app integration with REST / SOAP and other APIs for Google Maps, social media logins, payment processors, and other services.",
+			" Web Designing (UI/UX)",
+			" Web Development (MERN)",
+			" Mobile App Development (React-Native)",
+		],
+	},
+	{
+		role: "React developer",
+		company: "SBR Technologies",
+		companylogo: "/img/icons/common/SBRTechnologies.png",
+		date: "Dec 2013 – Sep 2015",
+		desc: "Key Qualifications & Responsibilities",
+		descBullets: [
+			" Web Development (MERN)",
+			" Cloud Engineering (Serverless architecture, AWS)",
+			" Mobile Technology (React-Native)",
 		],
 	},
 	
@@ -307,20 +263,20 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "Catering Spares (Ecommerce)",
-		desc: "This Site built with magento2.x, updated new latest version.",
+		name: "Catering Spares (React + Node)",
+		desc: "This Site built with react and node, updated new latest version.",
 		github: "https://github.com/ShibaYashihiro/Caterinspares_magento2.4.3_p3",
 		link: "https://www.cateringspares.com.au",
 	},
 	{
-		name: "Seravo (WordPress)",
+		name: "Seravo (React + Node)",
 		desc: "A WordPress project layout for use with Git, Composer and Nginx. It also includes a config a Vagrant box and Docker image for local development.",
 		github: "https://github.com/ShibaYashihiro/Seravo_WP",
 		link: "https://seravo.com/en/",
 	},
 	{
-		name: "SchoolMaster (Livewire/Alipin)",
-		desc: "This site built with Alpine.js and Livewire.",
+		name: "SchoolMaster (Laravel 9.0)",
+		desc: "This site built with Laravel 9.0.",
 		github: "https://github.com/ShibaYashihiro/SchoolMaster_livewire",
 		link: "https://www.uniranks.com",
 	}
@@ -335,17 +291,17 @@ export const feedbacks = [
 	{
 		name: "Gibran S.",
 		feedback:
-			"It was extremely nice working with Shiba. The communication was easy and clear, the work was high quality, and done within time & budget. Highly recommended. Will hire again!",
+			"It was extremely nice working with Satoshi. The communication was easy and clear, the work was high quality, and done within time & budget. Highly recommended. Will hire again!",
 	},
 	{
 		name:"Jorge D.",
 		feedback:
-			"Working with Shiba was great. He was accessible and extremely collaborative on this project. He completed all milestones quickly and ahead of schedule. I will definitely go back to him for my next project.",
+			"Working with Satoshi was great. He was accessible and extremely collaborative on this project. He completed all milestones quickly and ahead of schedule. I will definitely go back to him for my next project.",
 	},
 	{
 		name:"Cristi B.",
 		feedback:
-			"Shiba was punctual, creative and hard-working. He's a great lovely peep to work with!"
+			"Satoshi was punctual, creative and hard-working. He's a great lovely peep to work with!"
 	}
 ];
 
@@ -354,19 +310,19 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Shiba Yashihiro",
+	title: "Leon Satoshi",
 	description:
 		"A passionate Full Stack Web Developer.",
-	author: "Shiba Yashihiro",
+	author: "Leon Satoshi",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 	url: "https://shibayashihiro.vercel.app",
 	keywords: [
-		"Shiba",
-		"Shiba Yashihiro",
+		"Satoshi",
+		"Leon Satoshi",
 		"@devstack777",
 		"devstack777",
 		"Portfolio",
-		"Shiba Portfolio ",
-		"Shiba Yashihiro Portfolio",
+		"Satoshi Portfolio ",
+		"Leon Satoshi Portfolio",
 	],
 }

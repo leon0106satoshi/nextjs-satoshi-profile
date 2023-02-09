@@ -9,7 +9,7 @@ const GreetingLottie = ({ animationPath }) => {
 	};
 
 	return (
-		<div onClick={() => null}>
+		<div className="svg-container" onClick={() => null}>
 			<Lottie options={defaultOptions} />
 		</div>
 	);
