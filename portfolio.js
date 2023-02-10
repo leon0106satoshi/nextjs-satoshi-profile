@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Leon Satoshi",
-	title: "Hi all, I'm Leon Satoshi.",
+	name: "Shabir Nawabi",
+	title: "Hi all, I'm Shabir Nawabi.",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Node.js, Vue.js, GatsbyJS",
 	resumeLink:
@@ -10,7 +10,7 @@ export const greetings = {
 };
 
 export const openSource = {
-	githubUserName: "LeonSatoshi",
+	githubUserName: "ShabirNawabi",
 };
 
 export const contact = {};
@@ -291,17 +291,17 @@ export const feedbacks = [
 	{
 		name: "Gibran S.",
 		feedback:
-			"It was extremely nice working with Satoshi. The communication was easy and clear, the work was high quality, and done within time & budget. Highly recommended. Will hire again!",
+			"It was extremely nice working with Nawabi. The communication was easy and clear, the work was high quality, and done within time & budget. Highly recommended. Will hire again!",
 	},
 	{
 		name:"Jorge D.",
 		feedback:
-			"Working with Satoshi was great. He was accessible and extremely collaborative on this project. He completed all milestones quickly and ahead of schedule. I will definitely go back to him for my next project.",
+			"Working with Nawabi was great. He was accessible and extremely collaborative on this project. He completed all milestones quickly and ahead of schedule. I will definitely go back to him for my next project.",
 	},
 	{
 		name:"Cristi B.",
 		feedback:
-			"Satoshi was punctual, creative and hard-working. He's a great lovely peep to work with!"
+			"Nawabi was punctual, creative and hard-working. He's a great lovely peep to work with!"
 	}
 ];
 
@@ -310,19 +310,19 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Leon Satoshi",
+	title: "Shabir Nawabi",
 	description:
 		"A passionate Full Stack Web Developer.",
-	author: "Leon Satoshi",
+	author: "Shabir Nawabi",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 	url: "https://shibayashihiro.vercel.app",
 	keywords: [
-		"Satoshi",
-		"Leon Satoshi",
+		"Nawabi",
+		"Shabir Nawabi",
 		"@devstack777",
 		"devstack777",
 		"Portfolio",
-		"Satoshi Portfolio ",
-		"Leon Satoshi Portfolio",
+		"Nawabi Portfolio ",
+		"Shabir Nawabi Portfolio",
 	],
 }
